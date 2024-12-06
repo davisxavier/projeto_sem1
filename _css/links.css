@@ -1,0 +1,91 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+div#linksdivmain{
+    background-color: #ffffff80;
+    width: 150vh;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+div#img1{
+    position:absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    height: 20vh;
+}
+div#img2{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 10rem;
+    margin-left: 70rem;
+    height: 20vh;
+}
+div#img3{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 25rem;
+    margin-left: 5rem;
+    height: 20vh;
+}
+div#img4{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 25rem;
+    margin-left: 70rem;
+    height: 20vh;
+}
+div#img5{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 40rem;
+    margin-left: 5rem;
+    height: 20vh;
+}
+div#img6{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 40rem;
+    margin-left: 70rem;
+    height: 20vh;
+}
+div#img7{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 55rem;
+    margin-left: 5rem;
+    height: 20vh;
+}
+div#img8{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 55rem;
+    margin-left: 70rem;
+    height: 20vh;
+}
+div#img9{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 70rem;
+    margin-left: 5rem;
+    height: 20vh;
+}
+div#img10{
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 70rem;
+    margin-left: 70rem;
+    height: 20vh;
+}

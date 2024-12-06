@@ -1,0 +1,48 @@
+body{
+    background-color: #f5b939;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+header{
+    text-align: center;
+}
+nav{
+    justify-content: space-between;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-indent: 3rem;
+}
+ul{
+    list-style-type: armenian; /*troca o simbolo da lista*/
+    list-style-position: inside;
+}
+li{
+    padding-left: 5px;
+}
+.menu{
+    display: inline-flex;
+    list-style-type: none;
+}
+.menu_item:hover{
+    color: #ffffff;
+    background-color: #1f3dfd;
+    text-decoration: overline;
+}
+button{
+    background-color: #1f3dfd;
+    border: 2px dashed red;
+    padding: 0.5rem;
+    margin-left: 3rem;
+    margin-top: 0.7rem;
+}
+input{
+    background-color: black;
+}
+input:focus{
+    background-color: white;
+}

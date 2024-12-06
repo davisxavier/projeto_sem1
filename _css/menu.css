@@ -1,0 +1,62 @@
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+header#cabecalho {
+    height: 170px;
+    background: url(../_img/clavesol.png) no-repeat;
+}
+div#titmenu{
+    margin-left: 30rem;
+    padding-top: 0.1rem;
+    font-size: 2.5rem;
+}
+div#titmenu h2{
+    text-align: justify;
+}
+nav#menu{
+    display:block;
+} 
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase; 
+    position: absolute; 
+    top: 1rem;
+    left: 10rem;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #bbbbbb;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin: 0.1rem;
+    transition-duration: 1s; 
+    font-size: 0.8rem; 
+}
+nav#menu li:hover {
+    background-color: #606060;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    background-color: #ffffff00;
+    color: hsl(0, 1%, 37%);
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: hsla(0, 0%, 0%, 0.274);
+}
+h1 {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{ 
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  

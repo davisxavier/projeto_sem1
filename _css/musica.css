@@ -1,0 +1,11 @@
+div#musica{
+    display: flex;
+    border-radius: 2rem;
+    
+}
+audio{
+    margin-left: 32rem;
+}
+audio::-webkit-media-controls-panel{
+    background-color: #fcdb70;
+}

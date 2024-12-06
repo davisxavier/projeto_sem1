@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>formulário</title>
+</head>
+<body style="background-color: #f3c07e; color: #000000;"> <!--style com Backgroud de cor de fundo e color cor da letra-->
+    <form style="margin: 10px auto; width: 400px;" method="post"><!--Inicio do formulário com um estilo e um method - método seguro de envio-->
+        <h1>cadastro de clientes</h1>
+        <div style="top: 10px; position:relative;"><!--Define uma divisão ou sessão na página, usada para agrupar conteúdo com estilo de espaçamento entre as div e com posição relative que libera mexer as divs para qualquer lugar-->
+            <label for="nome">Informe seu nome:</label><!--Serve para ajudar ao usário a seleção-->
+            <input type="text" name="nome" id="nome" maxlength="30" required placeholder="digite seu nome"><!--Caixa de texto tipo caixa de texto com nome para caixa de nome com id de reconhecimento de nome com limitação de 30 caracteres o required obriga que seja preenchido placeholder mostra informação para que o usuário saiba o que fazer-->
+        </div>
+        <!--<br>--> <!--espaçamento-->
+        <div style="top: 30px; position:relative;">
+            <label for="cidade">Digite sua cidade:</label>
+            <input type="text" name="cidade" id="cidade" value="Porto Alegre"><!--value serve para já selecionar uma informação para a caixa de texto-->
+        </div>
+        <div style="top: 50px; position:relative;">
+            <label for="idade">Digite sua idade:</label>
+            <input type="number" name="idade" id="idade" min="0" max="130" step="0.01"><!--Caixa de texto tipo caixa de numérico com nome para caixa de idade com id de reconhecimento de idade com limitação de numeração o step serve para colocar casas decimais-->
+        </div>
+        <div style="top: 70px; position:relative;">
+            <label>Você é estudante:</label>
+            <input type="radio" name="estudante" value="1" id="sim" checked><label for="sim">Sim</label><!--input para seleção o nome estudante diz que os inputs fazem parte do mesmo grupo checked serve para deixar esta opção selecionada-->
+            <input type="radio" name="estudante" value="2" id="nao"><label for="nao">N&atilde;o</label><!--acentuação em código html para colocar o ã na palavra não-->
+        </div>
+        <div style="top: 90px; position:relative;">
+            <label>Você é estrangeiro:</label>
+            <input type="checkbox" name="estrangeiro" id="estrangeiro"><!--checkbox caixa para seleção-->
+        </div>
+        <div style="top: 120px; position:relative;">
+            <label>data de nascimento</label>
+            <input type="datetime-local" name="data" id="data"><!--inclusão de data e hora-->
+        </div>
+        <div style="top: 140px; position:relative;">
+            <label>Escolha a sua cor favorita</label>
+            <input type="color" name="cor" id="cor"><!--Seleção de cor-->
+        </div>
+        <div style="top: 160px; position:relative;">
+            <label>Estado</label>
+            <select name="estado" id="estado" size="2" multiple><!--seleção de textos pré determinados o size serve para mostrar o número de linhas exposta na caixa de seleção o multiple serve para marcar mais opções nesta mesma seção-->
+                <option value="0">selecione seu estado</option> <!--caso queira selecionar um valor use a informação select após o value-->
+                <option value="1">RS</option><!--opções que serão apresentadas na caixa de texto-->
+                <option value="2">SC</option>
+                <option value="3">PR</option>
+            </select>            
+        </div>
+        <div style="top: 180px; position:relative;">
+            <label>Observação</label>
+            <textarea name="obs" id="obs" style="width: 300px;"></textarea><!--área de texto para que o usuário descreva-->
+        </div>
+
+
+        <!--------------------------------------------------------------------------------------------------------------->
+        <div style="top: 290px; position:relative;">
+            <button type="submit" name="salvar">Enviar dados</button><!--Botão do tipo submit que envia o formulário com nome de salvar-->
+            <button type="reset" name="limpar">Limpar dados</button><!--botão do tipo reset para limpar os dados do formulário-->
+        </div>             
+    </form><!--Fim do formulário-->
+</body>
+</html>

@@ -1,0 +1,134 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 10px;
+    margin-left: 4px;
+}
+div#ativismodivmain{
+    background-color: #ffffff80;
+    width: 150vh;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+div#img1{
+    padding: 10px;
+    position:absolute;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    height: 20vh;
+}
+div#img2{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 10rem;
+    margin-left: 63rem;
+    height: 20vh;
+}
+div#img3{
+    padding: 10px;
+    position:absolute;
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    height: 20vh;
+}
+div#img4{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 20rem;
+    margin-left: 63rem;
+    height: 20vh;
+}
+div#img5{
+    padding: 10px;
+    position:absolute;
+    display: flex;
+    margin-top: 25rem;
+    margin-left: 2rem;
+    height: 20vh;
+}
+div#img6{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 30rem;
+    margin-left: 63rem;
+    height: 20vh;
+}
+div#img7{
+    padding: 10px;
+    position:absolute;
+    display: flex;
+    margin-top: 35rem;
+    margin-left: 2rem;
+    height: 20vh;
+}
+div#img8{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 40rem;
+    margin-left: 63rem;
+    height: 20vh;
+}
+div#img9{
+    padding: 10px;
+    position:absolute;
+    display: flex;
+    margin-top: 45rem;
+    margin-left: 2rem;
+    height: 20vh;
+}
+div#img10{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 50rem;
+    margin-left: 63rem;
+    height: 20vh;
+}
+div#img11{
+    padding: 10px;
+    position:absolute;
+    display: flex;
+    margin-top: 55rem;
+    margin-left: 2rem;
+    height: 20vh;
+}
+div#img12{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 60rem;
+    margin-left: 63rem;
+    height: 20vh;
+}
+div#img13{
+    padding: 10px;
+    position:absolute;
+    display: flex;
+    margin-top: 65rem;
+    margin-left: 2rem;
+    height: 20vh;
+}
+div#img14{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 70rem;
+    margin-left: 63rem;
+    height: 20vh;
+}
