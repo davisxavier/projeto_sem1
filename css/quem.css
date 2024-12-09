@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://davisxavier.github.io/projeto_sem1/img/quem/eu.jpg);
+    background-image: url('https://davisxavier.github.io/projeto_sem1/img/quem/eu.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
